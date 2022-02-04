@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 
 function App() {
-  const word = "epäjärjestelmällistyttämättömyydellänsäkäänköhän"
+  const word = "epäjärjestelmällistyttämättömyydelläänsäkäänköhän"
   const [completion, setCompletion] = useState(0)
   const [locked, setLocked] = useState(false)
   const [offendingCharacter, setOffendingCharacter] = useState('')
